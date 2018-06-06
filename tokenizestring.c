@@ -78,6 +78,8 @@ TokenizeString(const char *string, int *numtokens, const char *delim)
 
 	l = p + 1;
 	i++;
+      } else {
+	l++;
       }
 
       wasdelim = true;
